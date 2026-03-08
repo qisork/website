@@ -52,21 +52,15 @@ enableInlineShortcodes = true
     pageRef    = "/notes"
     weight     = 1
   [[menu.main]]
+    identifier = "tags"
+    name       = "Tags"
+    url        = "/tags/"
+    weight     = 2
+  [[menu.main]]
     name   = "Search"
     weight = 10
     [menu.main.params]
       type = "search"
-  
-  [[menu.sidebar]]
-    identifier = "more"
-    name = "More"
-    weight = 1
-    [[menu.sidebar.params]]
-      type = "separator"
-  [[menu.sidebar]]
-    name = "Tags"
-    url = "/tags/"
-    weight = 2
 
 [params]
   dateFormat  = "2006-01-02"
