@@ -83,7 +83,7 @@ enableInlineShortcodes = true
     enable = true
     type   = "giscus"
     [params.comments.giscus]
-      repo       = "cognden/website"
+      repo       = "qisork/website"
       repoId     = "R_kgDOOxy8JA"
       category   = "Announcements"
       categoryId = "DIC_kwDOOxy8JM4Cwn4w"
