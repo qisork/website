@@ -45,22 +45,26 @@ enableInlineShortcodes = true
           block = [['\[', '\]'], ['$$', '$$']]
           inline = [['\(', '\)'], ['$', '$']]
 
-[menu]
-  [[menu.main]]
-    identifier = "notes"
-    name       = "Notes"
-    pageRef    = "/notes"
-    weight     = 1
-  [[menu.main]]
-    identifier = "tags"
-    name       = "Tags"
-    url        = "/tags/"
-    weight     = 2
-  [[menu.main]]
-    name   = "Search"
-    weight = 10
-    [menu.main.params]
-      type = "search"
+[[menu.main]]
+  identifier = "notes"
+  name       = "Notes"
+  pageRef    = "/notes"
+  weight     = 1
+[[menu.main]]
+  identifier = "tags"
+  name       = "Tags"
+  pageRef    = "/tags"
+  weight     = 2
+[[menu.main]]
+  identifier = "about"
+  name       = "About"
+  pageRef    = "/about"
+  weight     = 3
+[[menu.main]]
+  name   = "Search"
+  weight = 10
+  [menu.main.params]
+    type = "search"
 
 [params]
   dateFormat  = "2006-01-02"
