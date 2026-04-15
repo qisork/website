@@ -64,7 +64,7 @@ public partial class App : Application
     public static IHost AppHost { get; private set; }
 
     // Application startup event
-    protected override async void OnStartup(StartupEventArgs e)
+    protected override void OnStartup(StartupEventArgs e)
     {
         base.OnStartup(e);
 
@@ -77,8 +77,8 @@ public partial class App : Application
         // 3. Build the host
         AppHost = builder.Build();
 
-        // 4. Start the host (non-blocking mode)
-        await AppHost.StartAsync();
+        // 4. Start the host
+        AppHost.Start();
 
         // 5. Get registered objects from the Host
         var mw = AppHost.Services.GetRequiredService<MainWindow>();
@@ -95,9 +95,10 @@ public partial class App : Application
     }
 
     // Application exit event
-    protected override async void OnExit(ExitEventArgs e)
+    protected override void OnExit(ExitEventArgs e)
     {
-        await AppHost.StopAsync();
+        // Close the host and free up resources
+        AppHost.StopAsync().Wait();;
         AppHost.Dispose();
         
         base.OnExit(e);

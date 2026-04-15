@@ -60,11 +60,11 @@ namespace WpfApp1;
 
 public partial class App : Application
 {
-    // 全局主机：整个应用唯一的核心对象
+    // 全局 Host：整个应用唯一的核心对象
     public static IHost AppHost { get; private set; }
 
     // 应用启动事件
-    protected override async void OnStartup(StartupEventArgs e)
+    protected override void OnStartup(StartupEventArgs e)
     {
         base.OnStartup(e);
 
@@ -74,11 +74,11 @@ public partial class App : Application
         // 2. 注册所有窗口、服务
         ConfigureServices(builder.Services);
 
-        // 3. 构建主机
+        // 3. 构建 Host
         AppHost = builder.Build();
 
-        // 4. 启动主机（非阻塞模式）
-        await AppHost.StartAsync();
+        // 4. 启动 Host
+        AppHost.Start();
 
         // 5. 从 Host 中获取已注册的对象
         var mw = AppHost.Services.GetRequiredService<MainWindow>();
@@ -95,9 +95,10 @@ public partial class App : Application
     }
 
     // 应用关闭事件
-    protected override async void OnExit(ExitEventArgs e)
+    protected override void OnExit(ExitEventArgs e)
     {
-        await AppHost.StopAsync();
+        // 关闭 Host，并释放资源
+        AppHost.StopAsync().Wait();;
         AppHost.Dispose();
         
         base.OnExit(e);
