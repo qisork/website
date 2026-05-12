@@ -6,6 +6,8 @@ locale = "zh-cn"
 title = "QisRepo"
 theme = "hextra"
 
+defaultContentLanguage ="zh-cn"
+
 # ============================================
 # Hugo 全局功能开关
 # ============================================
