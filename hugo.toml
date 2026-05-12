@@ -2,7 +2,7 @@
 # 基础站点配置
 # ============================================
 baseURL = "https://qisrepo.top/"
-label = "zh-CN"
+locale = "zh-cn"
 title = "QisRepo"
 theme = "hextra"
 
