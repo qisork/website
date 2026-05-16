@@ -1,18 +1,19 @@
 ---
 title: 自定义控件：初识 UserControl
 date: 2026-05-16T20:55:46+08:00
-category: draft
 tags:
-  - draft
-draft: true
-description: Desc Text.
-summary: Summarize text manually.
+  - 笔记
+  - csharp
+  - wpf
+draft: false
+description: 简述了，自己对 UserControl 的理解，以及如何创建。
+summary: 简述了，自己对 UserControl 的理解，以及如何创建。
 ---
 
 
 > 参考链接：[控件编写概述 - WPF | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/desktop/wpf/controls/control-authoring-overview#models-for-control-authoring)
 
-# 用户控件是什么
+## 用户控件是什么
 
 经过对**自定义控件**的学习后，我对“[用户控件](https://learn.microsoft.com/en-us/dotnet/api/system.windows.controls.usercontrol)”（`UserControl`）方式，有了大致的理解。
 
@@ -32,7 +33,7 @@ summary: Summarize text manually.
 
 > 可能我理解的不是恰当，如果有问题的话， 希望能得到指正。
 
-# 创建用户控件
+## 创建用户控件
 
 然后创建这个用户控件也很容易。打开 JetBrains Rider，在 WPF 项目中：
 
@@ -44,7 +45,11 @@ summary: Summarize text manually.
 
 与平常的创建的窗口文件区别不大，看起来就是将 `<Window></Window>` 换成了 `<UserControl></UserControl>`。依旧是在 XAML 文件中定义控件的外观，后台代码中定义控件的行为和逻辑。
 
-```xml hl:1
+{{< tabs >}}
+
+{{< tab name="XAML" >}}
+
+```xml {hl_lines=[1]}
 <UserControl x:Class="MyApp.MyControl"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -58,7 +63,11 @@ summary: Summarize text manually.
 </UserControl>
 ```
 
-```csharp hl:6
+{{< /tab >}}
+
+{{< tab name="C#" >}}
+
+```csharp {hl_lines=[6]}
 using System.Windows;
 using System.Windows.Controls;
 
@@ -72,3 +81,7 @@ public partial class MyControl : UserControl
     }
 }
 ```
+
+{{< /tab >}}
+
+{{< /tabs >}}
