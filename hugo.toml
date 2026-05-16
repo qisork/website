@@ -97,7 +97,7 @@ enableInlineShortcodes = true
   # 页脚配置
   # ----------------------------------------
   [params.footer]
-    displayCopyright = true
+    displayCopyright = false
 
   # ----------------------------------------
   # 编辑链接配置
@@ -119,14 +119,8 @@ enableInlineShortcodes = true
   # 评论系统配置
   # ----------------------------------------
   [params.comments]
-    enable = true
+    enable = false
     type = "giscus"
-    
-    [params.comments.giscus]
-      repo = "qisork/website"
-      repoId = "R_kgDOOxy8JA"
-      category = "Announcements"
-      categoryId = "DIC_kwDOOxy8JM4Cwn4w"
 
   # ----------------------------------------
   # 数学公式引擎配置
