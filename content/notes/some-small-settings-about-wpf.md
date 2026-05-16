@@ -11,7 +11,7 @@ summary: 这里收集了一些关于WPF有用的小设置，目前包括窗口�
 ---
 
 
-# 无边框（`WindowChrome`）
+## 无边框（`WindowChrome`）
 
 [WindowChrome](https://learn.microsoft.com/dotnet/api/system.windows.shell.windowchrome) 是微软官方推荐的**无边框窗口实现方案**，在保留窗口所有原生功能（拖动、调整大小、最小化最大化关闭）的情况下，只隐藏或移除传统的标题栏。
 
@@ -120,7 +120,7 @@ public partial class MainWindow : Window
 </StackPanel>
 ```
 
-# 设置 `DataContext`
+## 设置 `DataContext`
 
 `DataContext` 是每个 WPF 控件都拥有的一个属性，它代表了该控件的 "**默认数据源**" 或 "**数据上下文**"。
 
@@ -128,7 +128,7 @@ public partial class MainWindow : Window
 
 在这里，主要演示 Window 的 `DataContext`。
 
-## 在后置代码中设置
+### 在后置代码中设置
 
 ```csharp {hl_lines=[4]}
 public MainWindow()
@@ -138,7 +138,7 @@ public MainWindow()
 }
 ```
 
-## 在 XAML 中设置
+### 在 XAML 中设置
 
 在界面中设置 `DataContext`，需要先引入数据源所在的命名空间。
 
@@ -165,7 +165,7 @@ public class Something
 </Window>
 ```
 
-## 绑定设计时数据
+### 绑定设计时数据
 
 使用设计时 `DataContext`，可以在编辑 XAML 时，设计器里直接看到绑定数据、预览界面效果，并且不影响运行时真正的数据绑定。
 
