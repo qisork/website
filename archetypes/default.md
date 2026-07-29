@@ -1,10 +1,9 @@
 ---
 title: {{ replace .File.ContentBaseName "-" " " | title }}
 date: {{ .Date }}
-category: draft
+category: 
 tags:
-  - draft
+  - 
 draft: true
-description: Desc Text.
-summary: Summarize text manually.
+description: "简短描述，用于 SEO 和列表摘要"
 ---

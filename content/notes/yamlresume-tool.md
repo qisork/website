@@ -2,7 +2,9 @@
 title: 寻找制作简历的工具（YAMLResume）
 date: 2025-10-06T21:14:22+08:00
 tags:
-  - 工具
+  - yamlresume
+  - latex
+  - 评测
 draft: false
 description: 本文介绍了YAMLResume工具的使用方法，包括通过Docker命令创建简历模板和生成PDF文件，以及该工具的优缺点分析。
 summary: 本文介绍了YAMLResume工具的使用方法，包括通过Docker命令创建简历模板和生成PDF文件，以及该工具的优缺点分析。

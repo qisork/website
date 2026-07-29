@@ -2,9 +2,10 @@
 title: Selenium 的 PO 模式
 date: 2025-07-31T09:12:23+08:00
 tags:
-  - 测试工具
-showToc: true
-TocOpen: true
+  - selenium
+  - testing
+  - design-pattern
+  - 笔记
 draft: false
 description: 本文记录了我对 Selenium 的 PO 模式一些理解，其中包含 PO 模式是什么，以及相应的示例。
 summary: 本文记录了我对 Selenium 的 PO 模式一些理解，其中包含 PO 模式是什么，以及相应的示例。

@@ -2,9 +2,10 @@
 title: 自定义控件：初识 UserControl
 date: 2026-05-16T20:55:46+08:00
 tags:
-  - 笔记
-  - csharp
   - wpf
+  - csharp
+  - usercontrol
+  - 笔记
 draft: false
 description: 简述了，自己对 UserControl 的理解，以及如何创建。
 summary: 简述了，自己对 UserControl 的理解，以及如何创建。

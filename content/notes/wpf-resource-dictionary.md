@@ -2,8 +2,10 @@
 title: WPF 资源字典
 date: 2026-07-29T15:03:40+08:00
 tags:
-  - 笔记
   - wpf
+  - csharp
+  - resourcedictionary
+  - 笔记
 draft: false
 description: 本文记录了我对于WPF的资源字典的一些了理解，以及资源字典的使用。
 summary: 本文记录了我对于WPF的资源字典的一些了理解，以及资源字典的使用。
