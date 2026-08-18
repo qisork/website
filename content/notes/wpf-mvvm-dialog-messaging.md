@@ -5,7 +5,6 @@ tags:
   - wpf
   - csharp
   - mvvm
-  - messaging
   - 教程
 draft: false
 description: 介绍如何在 WPF MVVM 架构中使用 CommunityToolkit.Mvvm 消息机制实现自定义对话框数据传递

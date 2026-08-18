@@ -3,8 +3,6 @@ title: "Python 的三个关键字：async，await，yield"
 date: 2025-08-31T20:32:19+08:00
 tags:
   - python
-  - async
-  - generator
   - 笔记
 draft: false
 description: "本文介绍了Python中的三个重要关键字async、await和yield，解释了它们的含义、作用以及在异步编程和生成器中的应用，并通过实际案例展示了如何使用这些关键字提高程序性能。"

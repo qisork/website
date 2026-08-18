@@ -4,8 +4,6 @@ date: 2026-03-08T15:46:30+08:00
 tags:
   - wpf
   - csharp
-  - navigation
-  - mvvm
   - 教程
 draft: false
 description: 介绍如何在 WPF 中使用 ListBox、ContentControl 和 UserControl 实现侧边导航栏布局，通过内容切换展示不同页面视图。

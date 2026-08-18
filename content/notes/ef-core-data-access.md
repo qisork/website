@@ -4,9 +4,7 @@ date: 2026-01-21T16:08:18+08:00
 tags:
   - csharp
   - ef-core
-  - orm
-  - sql-server
-  - 教程
+  - 笔记
 draft: false
 description: 本文介绍如何使用 Entity Framework Core，涵盖 DbContext 配置和初始化、模型创建与使用、CRUD 操作等核心知识点，适合初学者快速掌握 EF Core 基础用法。
 summary: 本文介绍了 Entity Framework Core 的基本使用方法，包括 DbContext 的配置与初始化、模型的创建与使用，以及基本的 CRUD 操作实践指南。

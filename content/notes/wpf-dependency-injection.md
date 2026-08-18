@@ -4,8 +4,7 @@ date: 2026-04-06T11:21:35+08:00
 tags:
   - wpf
   - csharp
-  - dependency-injection
-  - 教程
+  - 笔记
 draft: false
 description: 本文记录了如何在 WPF 应用中使用 Microsoft.Extensions.Hosting 实现依赖注入，包括配置步骤、三种服务生命周期管理及实际应用示例。
 summary: 本文记录了如何在 WPF 应用中使用 Microsoft.Extensions.Hosting 实现依赖注入，包括配置步骤、三种服务生命周期管理及实际应用示例。

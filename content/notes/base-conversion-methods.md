@@ -2,9 +2,6 @@
 title: 不同进制的转换方法
 date: 2025-11-06T20:53:31+08:00
 tags:
-  - number-systems
-  - binary
-  - hexadecimal
   - 笔记
 draft: false
 description: 本文详细介绍了不同进制（如二进制、八进制、十进制、十六进制）之间的转换方法，包括按权展开求和法、除基取余法、乘基取整法以及二进制与十六进制的快速互转技巧。
