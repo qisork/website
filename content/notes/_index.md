@@ -3,7 +3,6 @@ title: "笔记"
 cascade:
   type: blog
   showToc: true
-  category: 技术
 ---
 
 <div style="text-align: center; margin-top: 1em;">

@@ -1,12 +1,14 @@
 ---
 title: 如何在Linux中，为Flatpak版本的Edge浏览器导入证书
 date: 2025-10-30T16:54:42+08:00
+categories: 
+  - 技术
+  - 思考
 tags:
   - flatpak
   - 笔记
 draft: false
 description: "本文介绍了在 Linux 系统中为 Flatpak 版本的 Edge 浏览器导入证书的两种方法，解决了 Flatpak Edge 浏览器因缺少证书管理选项，而导致的问题。"
-summary: "当使用 Flatpak 版本的 Edge 浏览器时，可能会遇到缺少证书管理功能的问题。本文提供了两种解决方案：1）通过 edge://certificate-manager/localcerts 内部链接图形化导入证书；2）将证书文件复制到系统信任目录 /etc/pki/ca-trust/source/anchors/ 并执行 update-ca-trust 命令。第二种方法特别适用于第一种方法出现导入错误的情况。"
 ---
 
 当我在使用 [Watt Toolkit](https://steampp.net/) 时，发现 Flatpak 版本的 Edge 浏览器并没有“证书管理”的选项，只能通过 Edge 的内部链接（`edge://certificate-manager/localcerts`）访问“证书管理器”。

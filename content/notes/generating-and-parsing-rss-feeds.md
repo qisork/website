@@ -1,9 +1,12 @@
 ---
 title: RSS 订阅源的生成与解析
 date: 2026-08-17T21:08:41+08:00
+categories: 
+  - 技术
+  - 学习
 tags:
-  - 笔记
   - csharp
+  - 笔记
 draft: false
 description: "在本文中，记录了如何使用 C＃ System.ServiceModel.Syndication 进行 RSS、Atom 的生成与解析。"
 ---

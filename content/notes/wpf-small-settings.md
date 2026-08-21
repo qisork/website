@@ -1,13 +1,14 @@
 ---
 title: 关于WPF的一些小设置
 date: 2026-05-11T20:55:56+08:00
+categories: 
+  - 技术
 tags:
   - wpf
   - csharp
   - 笔记
 draft: false
-description: 这里收集了一些关于WPF有用的小设置，目前包括窗口无边框、Datacontext设置。
-summary: 这里收集了一些关于WPF有用的小设置，目前包括窗口无边框、Datacontext设置。
+description: "这里收集了一些关于WPF有用的小设置，目前包括窗口无边框、Datacontext设置。"
 ---
 
 

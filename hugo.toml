@@ -72,6 +72,13 @@ enableInlineShortcodes = true
   [menu.main.params]
     type = "search"
 
+[[menu.main]]
+  name = "GitHub"
+  weight = 100
+  url = "https://github.com/qisork/"
+  [menu.main.params]
+    icon = "github"
+
 # ============================================
 # 网站参数配置
 # ============================================

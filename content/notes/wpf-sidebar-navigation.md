@@ -1,13 +1,14 @@
 ---
 title: 在 WPF 中通过侧边导航栏实现内容切换
 date: 2026-03-08T15:46:30+08:00
+categories: 
+  - 技术
 tags:
   - wpf
   - csharp
   - 教程
 draft: false
-description: 介绍如何在 WPF 中使用 ListBox、ContentControl 和 UserControl 实现侧边导航栏布局，通过内容切换展示不同页面视图。
-summary: 本文记录了两种 WPF 侧边导航栏实现方案：事件驱动模式和 MVVM 模式。事件驱动方案通过 ListBox 的 SelectionChanged 事件触发内容切换；MVVM 方案使用 CommunityToolkit.Mvvm 框架，通过数据绑定实现导航项与视图的动态关联，并利用反射简化视图实例化过程。
+description: "介绍如何在 WPF 中使用 ListBox、ContentControl 和 UserControl 实现侧边导航栏布局，通过内容切换展示不同页面视图。"
 ---
 
 本篇笔记主要记录，如何在 WPF 中利用 ListBox+ContentControl+UserControl 三个控件，以侧边导航栏的形式实现内容切换。

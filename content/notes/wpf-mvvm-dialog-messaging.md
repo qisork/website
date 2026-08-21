@@ -1,14 +1,15 @@
 ---
 title: WPF MVVM 模式下通过消息机制获取自定义对话框数据
 date: 2026-03-24T08:52:17+08:00
+categories: 
+  - 技术
 tags:
   - wpf
   - csharp
   - mvvm
   - 教程
 draft: false
-description: 介绍如何在 WPF MVVM 架构中使用 CommunityToolkit.Mvvm 消息机制实现自定义对话框数据传递
-summary: 本文记录了在 WPF MVVM 模式下，通过继承 RequestMessage 创建带回复功能的消息类，结合 WeakReferenceMessenger 实现 ViewModel 与 View 之间的解耦通信。详细说明了从定义消息类、发送消息、订阅处理到对话框创建的完整步骤，解决了模态对话框数据返回的问题。
+description: "介绍如何在 WPF MVVM 架构中使用 CommunityToolkit.Mvvm 消息机制实现自定义对话框数据传递"
 ---
 
 本篇笔记主要记录如何在 MVVM 模式下，通过消息机制获取自定义对话框的数据。

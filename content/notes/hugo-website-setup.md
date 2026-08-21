@@ -1,12 +1,13 @@
 ---
 title: 使用 HUGO 搭建网站
 date: 2025-06-22T09:54:23+08:00
+categories: 
+  - 技术
 tags:
   - hugo
   - 教程
 draft: false
-description: 本篇文章将介绍如何使用 Hugo 搭建一个静态网站，并配置 PaperMod 主题。
-summary: 本篇文章将介绍如何使用 Hugo 搭建一个静态网站，并配置 PaperMod 主题。
+description: "本篇文章将介绍如何使用 Hugo 搭建一个静态网站，并配置 PaperMod 主题。"
 ---
 
 ## 安装 Hugo 并创建网站
