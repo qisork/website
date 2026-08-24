@@ -3,6 +3,8 @@ title: "笔记"
 cascade:
   type: blog
   showToc: true
+  params:
+    breadcrumbs: false
 ---
 
 <div style="text-align: center; margin-top: 1em;">
