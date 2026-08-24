@@ -49,22 +49,28 @@ enableInlineShortcodes = true
 # 主导航菜单配置
 # ============================================
 [[menu.main]]
+  identifier = "recent"
+  name = "最近更新"
+  pageRef = "/recent"
+  weight = 1
+
+[[menu.main]]
   identifier = "notes"
   name = "笔记"
   pageRef = "/notes"
-  weight = 1
+  weight = 2
 
 [[menu.main]]
   identifier = "tags"
   name = "标签"
   pageRef = "/tags"
-  weight = 2
+  weight = 3
 
 [[menu.main]]
   identifier = "about"
   name = "关于"
   pageRef = "/about"
-  weight = 3
+  weight = 4
 
 [[menu.main]]
   name = "Search"
@@ -121,6 +127,15 @@ enableInlineShortcodes = true
     
     [params.blog.article]
       displayPagination = true
+
+  # ----------------------------------------
+  # 最近更新页面配置
+  # ----------------------------------------
+  [params.recent]
+    count = 18
+    pagerSize = 6
+    displayTags = true
+    excludeSections = ["about", "tags", "categories"]
 
   # ----------------------------------------
   # 评论系统配置
