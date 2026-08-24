@@ -1,5 +1,8 @@
 ---
 title: 使用 HUGO 搭建网站
+slug: hugo-website-setup
+aliases:
+  - /notes/hugo-website-setup/
 date: 2025-06-22T09:54:23+08:00
 categories: 
   - 技术

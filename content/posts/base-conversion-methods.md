@@ -1,5 +1,8 @@
 ---
 title: 不同进制的转换方法
+slug: base-conversion-methods
+aliases:
+  - /notes/base-conversion-methods/
 date: 2025-11-06T20:53:31+08:00
 categories: 
   - 技术

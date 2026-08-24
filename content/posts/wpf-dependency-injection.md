@@ -1,5 +1,8 @@
 ---
 title: 通过 Host 在 WPF 中进行依赖注入
+slug: wpf-dependency-injection
+aliases:
+  - /notes/wpf-dependency-injection/
 date: 2026-04-06T11:21:35+08:00
 categories: 
   - 技术

@@ -1,5 +1,8 @@
 ---
 title: 如何在Linux中，为Flatpak版本的Edge浏览器导入证书
+slug: flatpak-edge-certificate
+aliases:
+  - /notes/flatpak-edge-certificate/
 date: 2025-10-30T16:54:42+08:00
 categories: 
   - 技术

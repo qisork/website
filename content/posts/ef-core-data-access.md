@@ -1,5 +1,8 @@
 ---
 title: 如何使用 Entity Framework Core
+slug: ef-core-data-access
+aliases:
+  - /notes/ef-core-data-access/
 date: 2026-01-21T16:08:18+08:00
 categories: 
   - 技术

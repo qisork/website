@@ -1,5 +1,8 @@
 ---
 title: 自定义控件：初识 UserControl
+slug: wpf-usercontrol-intro
+aliases:
+  - /notes/wpf-usercontrol-intro/
 date: 2026-05-16T20:55:46+08:00
 categories: 
   - 技术

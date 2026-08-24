@@ -1,5 +1,8 @@
 ---
 title: Python 的三个关键字：async，await，yield
+slug: python-async-await-yield
+aliases:
+  - /notes/python-async-await-yield/
 date: 2025-08-31T20:32:19+08:00
 categories: 
   - 技术

@@ -1,5 +1,8 @@
 ---
 title: Selenium 的 PO 模式
+slug: selenium-po-pattern
+aliases:
+  - /notes/selenium-po-pattern/
 date: 2025-07-31T09:12:23+08:00
 categories: 
   - 技术

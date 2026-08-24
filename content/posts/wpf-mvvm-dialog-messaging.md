@@ -1,5 +1,8 @@
 ---
 title: WPF MVVM 模式下通过消息机制获取自定义对话框数据
+slug: wpf-mvvm-dialog-messaging
+aliases:
+  - /notes/wpf-mvvm-dialog-messaging/
 date: 2026-03-24T08:52:17+08:00
 categories: 
   - 技术

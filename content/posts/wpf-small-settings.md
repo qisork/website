@@ -1,5 +1,8 @@
 ---
 title: 关于WPF的一些小设置
+slug: wpf-small-settings
+aliases:
+  - /notes/wpf-small-settings/
 date: 2026-05-11T20:55:56+08:00
 categories: 
   - 技术

@@ -1,5 +1,8 @@
 ---
 title: RSS 订阅源的生成与解析
+slug: generating-and-parsing-rss-feeds
+aliases:
+  - /notes/generating-and-parsing-rss-feeds/
 date: 2026-08-17T21:08:41+08:00
 categories: 
   - 技术

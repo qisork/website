@@ -1,5 +1,8 @@
 ---
 title: 在 WPF 中通过侧边导航栏实现内容切换
+slug: wpf-sidebar-navigation
+aliases:
+  - /notes/wpf-sidebar-navigation/
 date: 2026-03-08T15:46:30+08:00
 categories: 
   - 技术

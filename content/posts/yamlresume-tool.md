@@ -1,5 +1,8 @@
 ---
 title: 寻找制作简历的工具（YAMLResume）
+slug: yamlresume-tool
+aliases:
+  - /notes/yamlresume-tool/
 date: 2025-10-06T21:14:22+08:00
 categories: 
   - 思考

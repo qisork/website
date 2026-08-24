@@ -1,5 +1,8 @@
 ---
 title: WPF 资源字典
+slug: wpf-resource-dictionary
+aliases:
+  - /notes/wpf-resource-dictionary/
 date: 2026-07-29T15:03:40+08:00
 categories: 
   - 技术
