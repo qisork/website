@@ -2,11 +2,11 @@
 # 基础站点配置
 # ============================================
 baseURL = "https://qisrepo.top/"
-locale = "zh-cn"
+locale = "zh-CN"
 title = "QisRepo"
 theme = "hextra"
 
-defaultContentLanguage ="zh-cn"
+defaultContentLanguage = "zh-cn"
 
 # ============================================
 # Hugo 全局功能开关
@@ -147,8 +147,15 @@ enableInlineShortcodes = true
   # 评论系统配置
   # ----------------------------------------
   [params.comments]
-    enable = false
+    enable = true
     type = "giscus"
+
+    [params.comments.giscus]
+      repo = "qisork/website"
+      repoID = "R_kgDOOxy8JA="
+      category = "Announcements"
+      categoryID = "DIC_kwDOOxy8JM4Cwn4w"
+
 
   # ----------------------------------------
   # 数学公式引擎配置
