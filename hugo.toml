@@ -54,11 +54,11 @@ enableInlineShortcodes = true
   pageRef = "/recent"
   weight = 1
 
-[[menu.main]]
-  identifier = "notes"
-  name = "笔记"
-  pageRef = "/notes"
-  weight = 2
+# [[menu.main]]
+#   identifier = "notes"
+#   name = "笔记"
+#   pageRef = "/notes"
+#   weight = 2
 
 [[menu.main]]
   identifier = "tags"
