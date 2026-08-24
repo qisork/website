@@ -14,6 +14,8 @@
         {{ if .Title }}<h1 class="hx:text-center hx:mt-2 hx:text-4xl hx:font-bold hx:tracking-tight hx:text-slate-900 hx:dark:text-slate-100">{{ .Title }}</h1>{{ end }}
         {{/* 栏目标的正文内容（_index.md 中的 Markdown，可为空） */}}
         <div class="content">{{ .Content }}</div>
+        {{/* 标题与内容之间的间距，与标签/分类页保持一致 */}}
+        <div class="hx:mb-16"></div>
         {{/*
           内容过滤（三级）：
           1. site.RegularPages —— 仅取常规页面，自动排除 _index.md 等栏目索引页；
