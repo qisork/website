@@ -7,4 +7,5 @@ cascade:
   showToc: true
   params:
     breadcrumbs: false
+    reversePagination: false
 ---
