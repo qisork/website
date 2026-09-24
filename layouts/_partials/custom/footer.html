@@ -1,0 +1,12 @@
+{{- if site.Copyright }}
+  <span>{{ site.Copyright | markdownify }}</span>
+{{- else }}
+  <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></span>
+{{- end }}
+{{- print " · "}}
+
+<span>
+  Powered by
+  <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> &amp;
+  <a href="https://github.com/imfing/hextra" target="_blank" rel="noopener">Hextra</a>
+</span>

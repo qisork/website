@@ -1,0 +1,16 @@
+.hextra-custom-footer {
+    padding-block: 1rem;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.hextra-custom-footer a {
+    color: inherit;
+    text-underline-offset: 0.25rem;
+    text-decoration: underline;
+}
+
+.hextra-custom-footer a:hover {
+    color: hsl(var(--primary-hue) var(--primary-saturation) var(--primary-lightness));
+}
