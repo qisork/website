@@ -54,28 +54,22 @@ enableInlineShortcodes = true
 # 主导航菜单配置
 # ============================================
 [[menu.main]]
-  identifier = "recent"
-  name = "最近更新"
-  pageRef = "/recent"
+  identifier = "posts"
+  name = "笔记"
+  pageRef = "/posts"
   weight = 1
-
-# [[menu.main]]
-#   identifier = "notes"
-#   name = "笔记"
-#   pageRef = "/notes"
-#   weight = 2
 
 [[menu.main]]
   identifier = "tags"
   name = "标签"
   pageRef = "/tags"
-  weight = 3
+  weight = 2
 
 [[menu.main]]
   identifier = "about"
   name = "关于"
   pageRef = "/about"
-  weight = 4
+  weight = 3
 
 [[menu.main]]
   name = "搜索"
