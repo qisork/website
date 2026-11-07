@@ -18,8 +18,6 @@ layout: home
 </div>
 
 {{< hextra/hero-subtitle >}}
-  一个技术博客，专注于记录学习过程、分享编程经验和展示项目成果。
-  <br class="hx:sm:block hx:hidden" />
-  这里包含了我的技术探索、实践经验和个人成长轨迹。
+  一个技术博客与作品集，记录学习、分享经验、沉淀项目。
 {{< /hextra/hero-subtitle >}}
 </section>

@@ -97,11 +97,7 @@ enableInlineShortcodes = true
   dateFormat = "2006-01-02"
   displayUpdatedDate = true
   externalLinkDecoration = true
-  description = """\
-    QisRepo 是一个个人技术博客,\
-    专注于记录学习过程、分享编程经验和展示项目成果。\
-    这里包含了我的技术探索、实践经验和个人成长轨迹。
-    """
+  description = "一个技术博客与作品集，记录学习、分享经验、沉淀项目。"
 
   # ----------------------------------------
   # 导航栏配置
