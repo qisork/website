@@ -4,7 +4,7 @@ slug: "how-to-use-serial-in-csharp"
 date: 2026-11-07T10:09:18+08:00
 categories: 技术
 tags:
-  - 通信, 
+  - 通信
   - csharp
 draft: false
 description: "介绍串口通信的基本原理与数据帧结构，讲解如何在 C# 中使用 System.IO.Ports 配置串口参数、收发字符串与字节流数据，并附带串口调试工具的实现思路。"

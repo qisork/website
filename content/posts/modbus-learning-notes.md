@@ -4,7 +4,7 @@ slug: "modbus-learning-notes"
 date: 2026-11-07T10:12:45+08:00
 categories: 技术
 tags:
-  - 通信, 
+  - 通信
   - csharp
 draft: false
 description: "Modbus 协议学习笔记，涵盖 RTU/TCP 帧结构、MBAP 报文头、常用功能码，以及基于 NModbus 的 C# 读写示例与轮询主循环实现。"
